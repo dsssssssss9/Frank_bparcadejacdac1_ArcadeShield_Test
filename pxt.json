@@ -1,0 +1,35 @@
+{
+    "name": "BPArcadeJacdac1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.9.25",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v1.9.25",
+        "jacdac-led": "github:microsoft/pxt-jacdac/led#v1.9.25",
+        "sprite-scaling": "*",
+        "jacdac-temperature": "github:microsoft/pxt-jacdac/temperature#v1.9.25",
+        "jacdac-humidity": "github:microsoft/pxt-jacdac/humidity#v1.9.25",
+        "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder#v1.9.25"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.47",
+        "tag": "v1.12.47",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/0da32d00b71ad17bdde6e0defc054446e17ad4e1",
+        "target": "1.12.47",
+        "pxt": "8.5.59",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
